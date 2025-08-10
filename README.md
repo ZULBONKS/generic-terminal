@@ -1,2 +1,2 @@
 # generic-terminal
-Just a Linux terminal that uses Julia.
+Just a Linux terminal into a bash
