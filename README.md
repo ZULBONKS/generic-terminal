@@ -5,6 +5,7 @@ Just a dumb Linux terminal into a bash
 If you use Linux, do this:
 1. Clone the repository:
 git clone https://github.com/ZULBONKS/generic-terminal.git
+
 cd generic-terminal
 2. Make the script executable:
 chmod +x term.sh
