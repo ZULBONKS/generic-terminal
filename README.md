@@ -8,7 +8,7 @@ git clone https://github.com/ZULBONKS/generic-terminal.git && cd generic-termina
 2. Make the script executable:
 chmod +x term.sh
 3. Run the command:
-/term.sh
+./term.sh
 
 Bonus. Want to customize? If you use Linux:
 nano term.sh
