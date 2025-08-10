@@ -6,7 +6,7 @@ test -f "$history_file" && history -r "$history_file"
 trap 'history -a "$history_file"' EXIT
 
 echo "┌──────────────────────────────────────────┐"
-echo "│  🖥️  GENERIC-TERMINAL (v2.0)             │"
+echo "│  🖥️  GENERIC-TERMINAL                    │"
 echo "│  Type 'help' for commands                │"
 echo "└──────────────────────────────────────────┘"
 
