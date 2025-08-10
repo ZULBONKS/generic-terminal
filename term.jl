@@ -1,5 +1,5 @@
 #!/usr/bin/env julia
-# Linux Terminal Emulator in Julia (GTK)
+# In Julialang, with GTK
 
 using Gtk
 using Gtk.ShortNames
