@@ -6,8 +6,8 @@ test -f "$history_file" && history -r "$history_file"
 trap 'history -a "$history_file"' EXIT
 
 echo "┌──────────────────────────────────────────┐"
-echo "│  🖥️  GENERIC-TERMINAL (v0.1)          │"
-echo "│  Type 'help' for commands               │"
+echo "│  🖥️  GENERIC-TERMINAL (v1.0)             │"
+echo "│  Type 'help' for commands                │"
 echo "└──────────────────────────────────────────┘"
 
 # Start interactive session
