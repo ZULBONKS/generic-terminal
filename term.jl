@@ -34,7 +34,6 @@ signal_connect(input, "activate") do widget
             output_buffer[end_iter] = "Error: $e\n"
         end
         
-        # Auto-scroll to end
         end_iter = output_buffer.end_iter
         mark = output_buffer.create_mark("end", end_iter, false)
         scroll_to(output, mark, 0.0, false, 0.0, 1.0)
