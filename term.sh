@@ -10,9 +10,8 @@ echo "│  🖥️  GENERIC-TERMINAL                    │"
 echo "│  Type 'help' for commands                │"
 echo "└──────────────────────────────────────────┘"
 
-# Start interactive session
 while true; do
-  read -p "\\n\\033[1;32mterm ➤\\033[0m " input
+  read -p "term: " input
   
   case $input in
     help)
