@@ -1,6 +1,10 @@
 #!/usr/bin/env bash
 
-# Custom "terminal" header
+# YEAH
+history_file="$HOME/.term_history"
+test -f "$history_file" && history -r "$history_file"
+trap 'history -a "$history_file"' EXIT
+
 echo "┌──────────────────────────────────────────┐"
 echo "│  🖥️  GENERIC-TERMINAL (v0.1)          │"
 echo "│  Type 'help' for commands               │"
